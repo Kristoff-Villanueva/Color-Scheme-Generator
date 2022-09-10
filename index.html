@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Color Generator</title>
+	</head>
+	<body>
+		<div id="container">
+			<form id="form" action="">
+				<input id="colorInput" type="color" />
+				<select name="mode" id="modeSelector">
+					<option value="monochrome">Monochrome</option>
+					<option value="analogic">Analogic</option>
+					<option value="complement">Complement</option>
+				</select>
+				<button type="submit" id="btn">Get Color Scheme</button>
+			</form>
+			<section id="colorSection">
+				<div class="colors" id="color1">1</div>
+				<div class="colors" id="color2">2</div>
+				<div class="colors" id="color3">3</div>
+				<div class="colors" id="color4">4</div>
+				<div class="colors" id="color5">5</div>
+			</section>
+		</div>
+		<div id="test">
+			<h1 id="testh1"></h1>
+		</div>
+		<script src="scripts.js"></script>
+		<script src="test.js"></script>
+	</body>
+</html>
